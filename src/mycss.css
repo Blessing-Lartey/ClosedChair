@@ -1,0 +1,23 @@
+
+@font-face{
+font-family: 'Lobster Two', cursive;
+    src :url(../public/Lobster_Two.zip)
+}
+
+.closedchair{
+font-family: 'Lobster Two', cursive;
+font-size: x-large;
+}
+
+.ladyeating{
+    position: absolute;
+    right: 300px;
+    width: 50%;
+}
+.blackbg {
+    position: absolute;
+    right: 0;
+    margin-top: 0%;
+    width: 55%;
+    height: 800px;
+}
