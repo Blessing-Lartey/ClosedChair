@@ -1,0 +1,68 @@
+* {
+    margin: 0%;
+}
+
+@font-face {
+    font-family: 'Lobster Two', cursive;
+    src: url(./fonts/Lobster_Two.zip);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.landing {
+    position: relative;
+}
+
+.navlinks {
+    text-indent: 50px;
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    color: aliceblue;
+    /* padding: 15px; */
+    margin-right: 40px;
+    padding-right: 20px;
+}
+
+.nav_links {
+    padding-right: 100px;
+}
+
+.closedchair {
+    font-family: 'Lobster Two', cursive;
+    font-size: xx-large;
+}
+
+.blackbg_resv {
+    position: absolute;
+    right: 0;
+    margin-top: 0%;
+    width: 50%;
+    height: 400px;
+}
+
+.ladyeating_resv {
+    position: absolute;
+    right: 300px;
+    width: 50%;
+    margin-top: 0%;
+    border-right: 5px solid rgb(251, 249, 249);
+    border-bottom: 5px solid rgb(251, 249, 249);
+    height: 300px;
+    object-fit: cover;
+    object-position: 0% 0%;
+}
+
+.abt_resv {
+    position: absolute;
+    margin-top: 345px;
+    width: 100%;
+    height: 50px;
+    background-color: #1E1B12;
+    font-weight: 150;
+    text-align: center;
+    padding-top: 40px;
+    color: aliceblue;
+}
+a {
+    color: #eee;
+}

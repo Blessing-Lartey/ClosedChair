@@ -1,7 +1,10 @@
-
+*{
+    margin: 0%;
+}
 @font-face {
     font-family: 'Lobster Two', cursive;
-    src: url(./fonts/Lobster_Two.zip)
+    src: url(./fonts/Lobster_Two.zip);
+    font-family: 'Montserrat', sans-serif;
 }
 .landing{
     position: relative;
@@ -17,6 +20,15 @@
     padding-right: 20px;
 }
 
+.nav_links{
+    padding-right: 100px;
+}
+
+a {
+    color: #eee;
+    
+}
+
 .closedchair {
     font-family: 'Lobster Two', cursive;
     font-size: xx-large;
@@ -27,6 +39,9 @@
     right: 300px;
     width: 50%;
     margin-top: 0%;
+    border-right: 5px solid rgb(251, 249, 249);
+    border-bottom: 5px solid rgb(251, 249, 249);
+    
 }
 
 .blackbg {
@@ -35,13 +50,22 @@
     margin-top: 0%;
     width: 50%;
     height: 750px;
+
 }
 
 .blackbg2 {
     position: absolute;
     width: 30%;
-    height: 460px;
+    height: 500px;
     margin-top: 980px;
+}
+
+.blackbg3 {
+    position: absolute;
+    width: 30%;
+    height: 500px;
+    right: 0px;
+    margin-top: 1700px;
 }
 
 .video {
@@ -50,38 +74,45 @@
     height: 500px;
     margin-top: 900px;
     margin-left: 80px;
+    border-left: 5px solid rgb(251, 249, 249);
+    border-bottom: 5px solid rgb(251, 249, 249);
 }
 
-.playicon {
+.play {
     position: absolute;
     margin-top: 1100px;
     height: 100px;
     width: 5%;
     margin-left: 300px;
-    background-color: aliceblue;
+    background-color: rgb(246, 248, 249);
     border-radius: 50px;
 }
 
 .abtus {
     position: absolute;
-    margin-top: 1200px;
-    height: 200px;
-    width: 50%;
+    padding-top: 60px;
+    margin-top: 1104px;
+    height: 240px;
+    width: 900px;
     margin-left: 600px;
     background-color: #1E1E1E;
     text-align: center;
-    padding: 15px;
-    font-family: 'Lobster Two';
-    font-size: large;
+    /* padding: 15px; */
+    font-family: 'Montserrat';
+    font-size: small;
+    color: white;
 }
 
 .abt {
     position: absolute;
-    margin-top: 750px;
+    margin-top: 690px;
     width: 100%;
-    height: 125px;
+    height: 100px;
     background-color: #1E1B12;
     font-weight: 400;
+    text-align: center;
+    padding-top: 60px;
+    color: aliceblue;
 }
 
 .hosp {
@@ -94,3 +125,105 @@
     width: 550px;
     text-align: center;
 }
+
+.cust{
+    font-size: xx-large;
+    padding-right: 100px;
+}
+
+.rest{
+   
+    font-size: xx-large;
+    padding-right: 100px;   
+}
+
+.yos{
+    font-size: xx-large;
+}
+
+.form{
+    position: absolute;
+    margin-top: 1650px;
+    margin-left: 950px;
+    text-align:justify;
+    background-color: #1E1B12;
+    width: 900px;
+    height: 500px;
+    font-size: large;
+    color: white;
+    background-color: #1E1E1E;
+    border-right: 5px solid rgb(251, 249, 249);
+    border-bottom: 5px solid rgb(251, 249, 249);
+}
+
+.frm{
+    display: flex;
+}
+
+.form_head{
+    text-align: center;
+    font-size: x-large;
+    padding-top: 25px;
+    padding-bottom: 10px;
+}
+
+.input{
+    width: 200px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border-radius: 9px;
+    border: 2px solid rgb(251, 249, 249);
+}
+
+.name{
+    margin-top: 20px;
+    margin-left: 40px;
+    padding-right: 70px;
+}
+
+.contact{
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.restaurant {
+    margin-top: 20px;
+    margin-left: 50px;
+    padding-right: 60px;
+}
+
+.nop{
+    margin-left: 40px;
+    margin-right: 5px;
+}
+
+.time_slot{
+    margin-top: 20px;
+    margin-left: 50px;
+    padding-right: 0px;
+}
+
+.table_slot {
+    margin-top: 20px;
+    margin-left: 50px;
+    padding-right: 0px;
+}
+
+.res_button{
+    margin-top: 200px;
+    margin-left: 450px;
+    width: 150px;
+    border-radius: 9px;
+    height: 40px;
+}
+
+.closedchair_down{
+    margin-top: 2260px;
+    margin-left: 60px;
+    font-size: medium;
+    font-style: italic;
+}
+
+
+
